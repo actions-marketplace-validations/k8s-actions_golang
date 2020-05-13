@@ -44,5 +44,5 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
 
-          docker tag kubectl $IMAGE_ID:$VERSION
+          docker tag golang $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
